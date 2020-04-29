@@ -1,0 +1,32 @@
+html {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin-top: 40px;
+	background-color: #ffd4c4;
+	margin-bottom: 50px;
+}
+body{
+	margin-left: 450px;
+	width: 800px;
+	background-color: #8fbd64;
+	color: white;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	box-shadow:2px 2px 2px #9c2a5b;
+}
+h1, h2 {
+	color: #8f143b;
+	font-family: Georgia;
+}
+img{
+	width: 200px;
+	border-radius: 50%;
+	padding: 10px;
+}
+p {
+	text-indent: 20px;
+	padding-right: 10px;
+}

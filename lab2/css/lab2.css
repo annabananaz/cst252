@@ -1,0 +1,34 @@
+html {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background-color: #fff2de;
+	color: #fffcf0;
+	margin-top: 50px;
+	/*background: linear-gradient (to bottom, #000000, #de4515, #1f0059);*/
+	/*background-repeat: none;*/
+}
+body{
+	width: 800px;
+	height: auto;
+	margin-left: 450px;
+	box-shadow: 5px 10px 15px gray;
+	background-color: #eba803;
+	padding: 5px;
+	line-height: 25px;
+}
+#title{
+	color: #d6521c;
+	font-size: 50px;
+	font-family: georgia;
+}
+.indent{
+	text-indent: 20px;
+}
+#dotted{
+	border: 3px dotted #4b967c;
+	margin: 2px;
+}
+.padding{
+	padding: 8px;
+}

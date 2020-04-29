@@ -1,0 +1,31 @@
+html {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin-top: 80px;
+	background-color: #262626;
+	margin-bottom: 50px;
+}
+body{
+	margin-left: 450px;
+	width: 800px;
+	background-color: black;
+	color: white;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+h1, h2 {
+	color: #64eef5;
+	font-family: Verdana, Geneva, sans-serif;
+}
+img{
+	width: 200px;
+	border-radius: 50%;
+	padding: 10px;
+}
+p {
+	text-indent: 20px;
+	padding-right: 10px;
+}
