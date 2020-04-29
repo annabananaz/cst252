@@ -1,0 +1,47 @@
+/*I got my colors from using http://colormind.io/ color palette*/
+html, body {
+	background-color: #e2ede2;
+}
+html {
+	padding-top: 3vh;
+}
+h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-weight: 400px;
+	color: #a5478c;
+	font-size: 50px;
+	padding: 15px;
+}
+h2 {
+	color: #dd723a;
+}
+.navbar {
+	background-color: #b1b5ba;
+	padding: 10px;
+}
+li.nav-item a {
+	color: #4c2a48;
+}
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+	transform: scale(1.1); 
+	color: #a5478c;
+}
+.title {
+	background-color: #d1e0d1;
+	margin-top: 3vh;
+}
+.space {
+	height: 5vh;
+}
+#js-link {
+	color: #4c2a48;
+}
+button {
+	background-color: #dd723a;
+	border-radius: 25px;
+	color: white;
+	padding: 7px 10px;
+}

@@ -1,0 +1,48 @@
+html, body {
+	background-color: #f3e09e;
+}
+html {
+	padding-top: 3vh;
+}
+h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-weight: 400px;
+	color: #c13d35;
+	font-size: 50px;
+	padding: 15px;
+}
+h2 {
+	color: #e75b48;
+}
+p {
+	color: #635e63;
+}
+.navbar {
+	background-color: #d9c74e;
+	padding: 10px;
+}
+li.nav-item a {
+	color: #635e63;
+}
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+	transform: scale(1.1); 
+}
+.title {
+	background-color: #c2bbc2;
+	margin-top: 3vh;
+}
+.space {
+	height: 5vh;
+}
+#js-link {
+	color: #635e63;
+}
+button {
+	background-color: #c13d35;
+	border-radius: 25px;
+	color: white;
+	padding: 7px 10px;
+}

@@ -1,0 +1,48 @@
+.blue {
+	background-color: #bccaf5;
+	border-color: #bccaf5;
+}
+.green {
+	background-color: #daf2cb;
+	border-color: #daf2cb;
+}
+.pink {
+	background-color: #f5dcda;
+	border-color: #f5dcda;
+}
+.purple {
+	background-color: #ded7f7;
+	border-color: #ded7f7;
+}
+#button1, #button2, #button3, #button4 {
+	width: 125px;
+}
+.space {
+	height: 3vh;
+}
+body {
+	background: rgb(227,234,255);
+	background: linear-gradient(0deg, rgba(227,234,255,1) 0%, rgba(255,249,229,1) 100%);
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 2vh;
+	height: 100%
+	width: 100%;
+}
+h2, p, #title{
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+#title {
+	background-color: #92a7e8;
+	border: 2px solid #738ad1;
+	border-radius: 3px;
+	padding: 7px 8px;
+	color: #fff9e5;
+}
+a {
+	color: #738ad1;
+}
+
+/*button {
+	display: block;
+}*/

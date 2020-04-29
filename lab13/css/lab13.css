@@ -1,0 +1,32 @@
+html {
+	background-color: #faffd9;
+}
+#content {
+	width: 700px;
+	height: auto;
+	margin-left: 450px;
+	margin-top: 25px;
+	padding: 10px;
+	line-height: 25px;
+	background-color: #cfd69f;
+	padding: 25px;
+	border-radius: 5px;
+}
+h1, h2 {
+	font-family: calder-dark-grit-shadow, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h1 {
+	color: #c96c32;
+}
+p {
+	text-indent: 15px
+}
+h2 {
+	color: #567d32;
+}
+img {
+	width: 400px;
+	border-radius: 10px;
+}

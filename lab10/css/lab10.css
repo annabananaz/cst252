@@ -1,0 +1,33 @@
+html {
+	background: linear-gradient(to bottom, #ffcc99 0%, #ffffff 67%);
+	height: 100%;
+	color: white;
+}
+#content {
+	width: 700px;
+	height: 700px;
+	margin: 5px 500px;
+	background-color: #c76948;
+	padding: 10px 25px;
+}
+#top {
+	width: 100%;
+	background-color: #609fe6;
+	color: white;
+	padding: 15px 0;
+	height: 50px;
+	width: 100%;
+	text-indent: 5px;
+	font-size: 30px;
+	font-family: reross-rectangular, sans-serif;
+	font-weight: 250;
+	font-style: normal;
+	border: 5px solid #ed652f;
+}
+#extracredit {
+	text-align: center;
+}
+a {
+	color: #2d73b5;
+	font-weight: bold;
+}

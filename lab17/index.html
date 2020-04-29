@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 17</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="css/lab17.css" type="text/css" rel="stylesheet">
+	<script src="js/lab17.js" defer></script>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<div class="row">
+					<h1 id="title">Lab 17: Advanced jQuery</h1>
+				</div>
+				<div class="row">
+					<h2>Challenge</h2>
+					<p>The real Challenge was getting this entire assignment to work. The goal was to create buttons which can then be toggled using jQuery.</p>
+				</div>
+				<div class="row">
+					<h2>Problems</h2>
+					<p>I had the most difficulty with this assignment for some reason. At first, I created buttons in my HTML and then using the html() Method I tried to add innerHTML to the buttons, like Wes showed in class, but that didn't work. Then I tried instead to hard code everything in jquery, so I created a variable with a button element. I then tried adding text to the buttons by using the html() Method and then using the append() Method to append the html to the button, which worked for the text inside the button, but didn't properly work for toggling the classes of each button as directed. I then instead redid my original code, but instead of using the html() Method, I made buttons in my html and added a text label. For my Javascript/jQuery, I added a .click event to each button and using removeClass and toggleClass to have the buttons toggle between different classes. However I was unable to get the desired result, which was to toggle the button between the green color and the color I changed each button to.</p>
+				</div>
+				<div class="row">
+					<strong><a href="https://itcdland.csumb.edu/~jwoldstad/cst252/lab17/js/lab17.js">JavaScript Link</a></strong>
+				</div>
+				<div class="row space"></div>
+					<div class="row">
+						<h2>Task X</h2>
+					</div>
+					<div class="row">
+						<p>Unlike the rest of my code, this was much more straightforward. To cycle the button between different classes, I made an array of different colors for the button to change to. I then added a click event and used the css() method, to change the color of the button from colors in the array. To have the color1 variable sift through the colors starting at 0, I added ++. Lastly, I then created a for loop to have the color array sift back to 0 once it reaches the end of the array.</p>
+					</div>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-5">
+				<div class="row">
+					<h2>Results!</h2>
+				</div>
+				<div class="row">
+					<p>Click the button belows below for the desired result.</p>
+				</div>
+				<div id="output">
+					<div class="row">
+					<button id="button1" class="green">Click me!</button>
+					</div>
+					<div class="row">
+						<button id="button2" class="green">No me!</button>
+					</div>
+					<div class="row">
+						<button id="button3" class="green">Hey Click me!</button>
+					</div>
+					<div class="row">
+						<button id="button4" class="taskx">Keep clicking me!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

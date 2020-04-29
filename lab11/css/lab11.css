@@ -1,0 +1,25 @@
+html {
+	background-color: #524b3f;
+}
+#content {
+	width: 900px;
+	height: auto;
+	margin-left: 450px;
+	padding: 5px;
+	line-height: 25px;
+	background-color: #c9c1b3;
+	padding: 25px;
+	border-radius: 5px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-indent: 15px
+}
+h2 {
+	color: #2e2922;
+}
+a {
+	color: #ad762a;
+}

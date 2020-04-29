@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10</title>
+	<link href="css/lab10.css" type="text/css" rel="stylesheet">
+	<script src="js/lab10.js" defer></script>
+	<style>
+  	@import url("https://use.typekit.net/fuu7hhh.css");
+	</style>
+</head>
+<body>
+	<div id="content">
+		<h1 id="top">Lab 10: JavaScript Events & Forms</h1>
+		<h2>Challenge</h2>
+			<p>For this assignment my partner and I had to create a form that takes the user's name (input) and to sort the letters in the person's name and to print it to the page. Unlike Lab 7 this was achieved using a form, instead of using window.prompt(). The challenge was to take Lab 7 and to make the user's name sorted to appear in the output. I think one challenge, which I have been noticing, is trying to understand each others' code, because my partner and I both approached the assignment very differently. I used document.getElementById inside of function sortUserName to return the value of the username, which my partner did very differently.</p>
+		<h2>Problems</h2>
+			<p>One real issue that I faced with my code was when I tested it out in my console. Errors appeared when using a dash for my id's. Not sure why, but I changed it to letters only and no errors were appearing until after then. I am a little disappointed I didn't have enough time to complete the Task X: Bonus assignment and I hope from now on I will be able to experiement more with my code.</p>
+		<h2>Results</h2>
+		<p>Type your name in the box below and your name will be spit out sorted alphabetically.</p>
+		<form>
+			<label>Input your name: </label>
+			<input type="text" id="username" name="username">
+			<input type="button" id="myButton" name="myButton" value="Button"><br><br>
+		</form>
+		<div id="output"></div>
+		<a href="https://itcdland.csumb.edu/~jwoldstad/cst252/lab10/js/lab10.js">JavaScript Link</a>
+	</div>
+</body>
+</html>

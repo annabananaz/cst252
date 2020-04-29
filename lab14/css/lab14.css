@@ -1,0 +1,27 @@
+html {
+	background-color: #ebf0f7;
+	color: #0e064a;
+}
+body {
+	font-family: congenial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	padding: 3em;
+	background-color: #ebf0f7;
+}
+.left {
+	background-color: #93b4cc;
+	padding: 2em;
+}
+.right {
+	background-color: #93a2cc;
+	padding: 2em;
+}
+p {
+	color: white;
+}
+.space {
+	padding: 1.5em 0;
+}

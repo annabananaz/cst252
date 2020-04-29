@@ -1,0 +1,26 @@
+#content {
+	width: 900px;
+	height: auto;
+	margin-left: 450px;
+	padding: 5px;
+	line-height: 25px;
+	background-color: Beige;
+	padding: 25px;
+}
+h1 {
+	text-align: center;
+}
+.box {
+	background-color: #4d2600;
+	width: 500px;
+	height: 35px;
+	padding: 12px;
+	color: SeaShell;
+	align-content: center;
+}
+p {
+	text-indent: 25px
+}
+h2 {
+	color: #4d2600;
+}

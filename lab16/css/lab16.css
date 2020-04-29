@@ -1,0 +1,13 @@
+html, body{
+	background-color: #e0e3dc;
+}
+h1, h2 {
+	color: #00542d;
+	font-family: 'Slabo 27px', serif;
+}
+a {
+	color: #849186;
+}
+p {
+	font-family: 'Slabo 27px', serif;
+}

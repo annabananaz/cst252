@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 11</title>
+	<link href="css/lab11.css" type="text/css" rel="stylesheet">
+	<script src="js/lab11.js" defer></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Lab 11: Conditionals</h1>
+		<h2>Challenge</h2>
+		<P>This was probably the most challenging this far in the semester an assignment has been. My Partner and I followed the instructions, but there were issues with the correct Hogwarts House showing up. Without my partner I wouldn't have been able to figure out what's wrong.</P>
+		<h2>Problems</h2>
+		<p>Our problem was that we didn't have the right parameter in sortingHat(), which we put in name to fix the issue. Instead of putting name.length to get the length of the user's name I put str.length, which I thought was used to return the length of the string, but my partner pointed out that error which I fixed.</p>
+		<h2>Results</h2>
+		<p><strong>Put in your name to reveal what Hogawarts house you are!</strong></p>
+		<form>
+			<label>Please enter your name for sorting </label>
+			<input type="text" id="input">
+			<input type="button" id="button" value="Magic Sorter Button">
+		</form>
+		<div id="output"></div><br>
+		<a href="https://itcdland.csumb.edu/~jwoldstad/cst252/lab11/js/lab11.js">JavaScript Link</a>
+	</div>
+</body>
+</html>
